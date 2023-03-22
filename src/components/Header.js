@@ -1,6 +1,8 @@
 import MenuItem from "./MenuItem";
 import {AiFillHome} from 'react-icons/Ai'
 import {AiFillInfoCircle} from 'react-icons/Ai'
+import Link from "next/link";
+import DarkModeButton from "./DarkModeButton";
 
 export default function Header() {
   return (
@@ -11,11 +13,11 @@ export default function Header() {
         <MenuItem title='ABOUT' address='/about' Icon={AiFillInfoCircle}/>
         {/* two button */}
       </div>
-      <div>
-        {/* another is logo */}
-        <h2><span className="mr-1 px-2 py-1 rounded-md bg-amber-600 text-black text-2xl font-bold">IMDb</span><span className="text-xl font-bold hidden sm:inline">Clone</span></h2>
-        {/* one button for theme change */}
-        
+      <div className="flex items-center gap-2">
+        <DarkModeButton></DarkModeButton>
+       <Link href='/'>
+       <h2><span className="mr-1 px-2 py-1 rounded-md bg-amber-600 text-white text-2xl font-bold">IMDb</span><span className="text-xl font-bold hidden sm:inline">Clone</span></h2>
+       </Link>
       </div>
     </div>
     </div>

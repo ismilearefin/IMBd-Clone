@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import './globals.css'
+import Provider from './Provider'
 
 export const metadata = {
   title: 'IMBd Clone',
@@ -10,8 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header></Header>
-        {children}
+        <Provider >
+          <Header></Header>
+          {children}
+        </Provider>
       </body>
     </html>
   )

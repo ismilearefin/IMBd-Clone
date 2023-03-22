@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className="w-full">
     <div className="flex justify-between items-center max-w-6xl mx-auto">
-      <div className="flex gap-3 mx-3">
+      <div className="flex gap-3">
         <MenuItem title='HOME' address='/' Icon={AiFillHome}/>
         <MenuItem title='ABOUT' address='/about' Icon={AiFillInfoCircle}/>
         {/* two button */}

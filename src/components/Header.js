@@ -1,6 +1,6 @@
 import MenuItem from "./MenuItem";
-import {AiFillHome} from 'react-icons/Ai'
-import {AiFillInfoCircle} from 'react-icons/Ai'
+import {AiFillHome} from 'react-icons/ai'
+import {AiFillInfoCircle} from 'react-icons/ai'
 import Link from "next/link";
 import DarkModeButton from "./DarkModeButton";
 

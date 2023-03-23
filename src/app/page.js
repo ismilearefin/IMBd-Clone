@@ -21,7 +21,7 @@ export default async function Home({searchParams}) {
 
   return (
     <div className="w-full">
-      <h1 className="text-red-400">
+      <h1 className="">
         <Result results={results}></Result>
       </h1>
     </div>

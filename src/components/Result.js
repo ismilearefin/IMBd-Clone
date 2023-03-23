@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Result({results}) {
-    console.log(results)
+    // console.log(results)
   return (
     <div>
         {
